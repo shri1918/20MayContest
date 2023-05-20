@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library System</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="left-section">
+        <a class="logo" href="#">Library System</a>
+      </div>
+      <div class="right-section">
+        <a href="#books">Books</a>
+        <a href="#register">Register</a>
+        <a href="#">Contact</a>
+        <a href="#">Logout</a>
+      </div>
+  </nav>
+
+  <!-- Books Section -->
+  <section id="books">
+    <div class="books-container">
+    <h2>Books</h2>
+    <!-- Table of Books will be added here -->
+    <!-- Table of Books -->
+<table>
+    <thead>
+      <tr>
+        <th>Book ID</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Availability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>
+          <table>
+            <a href="#">Book Title 1</a>
+            <tr>
+              <td>Publication Date:</td>
+              <td>2022-01-01</td>
+            </tr>
+            <tr>
+              <td>Page Count:</td>
+              <td>300</td>
+            </tr>
+            <tr>
+              <td>ISBN:</td>
+              <td>978-1-234567-89-0</td>
+            </tr>
+          </table>
+        </td>
+        <td>Author 1</td>
+        <td>Genre 1</td>
+        <td>Available</td>
+      </tr>
+      <!-- Add more rows here -->
+      <tr>
+        <td>2</td>
+        <td>
+          <table>
+            <a href="#">Book Title 2</a>
+            <tr>
+              <td>Publication Date:</td>
+              <td>2012-01-01</td>
+            </tr>
+            <tr>
+              <td>Page Count:</td>
+              <td>234</td>
+            </tr>
+            <tr>
+              <td>ISBN:</td>
+              <td>978-1-234567-89-0</td>
+            </tr>
+          </table>
+        </td>
+        <td>Author 1</td>
+        <td>Genre 2</td>
+        <td>Available</td>
+      </tr>
+       <!-- Add more rows here -->
+       <tr>
+        <td>3</td>
+        <td>
+          <table>
+            <a href="#">Book Title 3</a>
+            <tr>
+              <td>Publication Date:</td>
+              <td>2012-01-01</td>
+            </tr>
+            <tr>
+              <td>Page Count:</td>
+              <td>330</td>
+            </tr>
+            <tr>
+              <td>ISBN:</td>
+              <td>978-1-234567-89-0</td>
+            </tr>
+          </table>
+        </td>
+        <td>Author 1</td>
+        <td>Genre 5</td>
+        <td>Available</td>
+      </tr>
+        <!-- Add more rows here -->
+        
+        
+    </tbody>
+  </table>
+</div>
+  </section>
+
+  <!-- Registration Form Section -->
+  <section id="register">
+    <div class="books-container">
+    <h2>Register</h2>
+    <!-- Registration Form will be added here -->
+    <!-- Registration Form -->
+<form>
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" required>
+  
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" required>
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+  
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" required>
+  
+    <label for="age">Age:</label>
+    <input type="number" id="age" min="5" max="100" required>
+  
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+  
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" required>
+  
+    <input type="submit" value="Register">
+  </form>
+  
+  </section>
+</div>
+  
+</body>
+</html>
